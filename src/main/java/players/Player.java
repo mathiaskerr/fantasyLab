@@ -1,8 +1,9 @@
-public abstract class Enemy {
+package players;
+
+public abstract class Player {
     private String name;
     private Integer HP;
-
-    public Enemy(String name, Integer HP){
+    public Player(String name, Integer HP){
         this.name = name;
         this.HP = HP;
     }
