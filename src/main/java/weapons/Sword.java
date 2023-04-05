@@ -2,9 +2,12 @@ package weapons;
 
 import behaviours.IWeapon;
 
-public class Sword implements IWeapon {
-    @Override
-    public void attack() {
+public class Sword extends Weapons {
 
+    public Sword(String name, Integer damage) {
+        super(name, damage);
     }
+
+//    private Integer damage = 30;
+
 }

@@ -1,10 +1,17 @@
 package weapons;
 
 import behaviours.IWeapon;
+import enemy.Enemy;
 
-public class Club implements IWeapon {
-    @Override
-    public void attack() {
-
+public class Club extends Weapons {
+    public Club(String name, Integer damage) {
+        super(name, damage);
     }
+
+
+
+
+
+
+
 }

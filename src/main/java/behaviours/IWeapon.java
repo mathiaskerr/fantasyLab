@@ -1,5 +1,9 @@
 package behaviours;
 
+import enemy.Enemy;
+
 public interface IWeapon {
-    public void attack();
+    public Integer attack();
+
+
 }
